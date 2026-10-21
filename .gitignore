@@ -3,6 +3,7 @@
 # and the separately managed puzhai-fire-dragon-online repository.
 /*
 !/.gitignore
+!/vercel.json
 !/index.html
 !/assets/
 
