@@ -1,0 +1,43 @@
+# Track only the current application and its runtime dependencies.
+# This excludes archives, delivery notes, QA output, caches, secrets,
+# and the separately managed puzhai-fire-dragon-online repository.
+/*
+!/.gitignore
+!/index.html
+!/assets/
+
+# Legacy assets remain on disk; only resources used by index.html are tracked.
+/assets/*
+!/assets/art-exhibition.css
+!/assets/art-exhibition.js
+!/assets/game.css
+!/assets/redesign-v3.css
+!/assets/epilogue-v4.css
+!/assets/dance-patterns.js
+!/assets/fire-dragon.js
+!/assets/fireworks.js
+
+!/assets/bamboo-wings.svg
+!/assets/theatre-wing.svg
+!/assets/hero-wide.webp
+!/assets/hero-cinema.webp
+!/assets/hero-tablet.webp
+!/assets/hero-mobile.webp
+!/assets/culture-mural-reference.webp
+!/assets/craft-bamboo.webp
+!/assets/craft-paper.webp
+!/assets/craft-paint.webp
+!/assets/craft-workshop-v3.png
+!/assets/craft-dragon-stages-v3.png
+!/assets/map-landscape-v3.png
+!/assets/play-night-v4.png
+!/assets/dragon-head-v3.png
+!/assets/dragon-scales.svg
+!/assets/dragon-tail.svg
+
+!/assets/maps/
+/assets/maps/*
+!/assets/maps/puzhai-cultural-atlas.svg
+
+# Required license for the font embedded in the application stylesheet.
+!/assets/FONT-LICENSE.txt
